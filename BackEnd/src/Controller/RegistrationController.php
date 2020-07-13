@@ -6,6 +6,7 @@ use App\Entity\User;
 use App\Entity\Producer;
 use App\Entity\Customer;
 use App\Repository\ProducerRepository;
+use App\Repository\CustomerRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
